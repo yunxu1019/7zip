@@ -11,7 +11,7 @@ emcc -o ./lzma.js \
     -s WASM=1 \
     -s INITIAL_MEMORY=16MB \
     -s MAXIMUM_MEMORY=1GB \
-    -s STACK_SIZE=2MB \
+    -s STACK_SIZE=12MB \
     -s ALLOW_MEMORY_GROWTH=1 \
     -s "EXPORTED_RUNTIME_METHODS=['ccall']" \
     -s ALLOW_MEMORY_GROWTH=1 \
