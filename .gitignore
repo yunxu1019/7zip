@@ -1,0 +1,11 @@
+emsdk
+lzma.js
+lzma.wasm
+*.obj
+.vs
+*.idb
+*.pdb
+*.lib
+C/Util/LzmaLib/Debug
+C/Util/LzmaLib/Release
+bin/
