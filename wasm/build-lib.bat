@@ -26,8 +26,7 @@ del *.obj
 
 :: 生成 LzmaLib.inc 文件
 echo ; LzmaLib.inc > %OUTPUT_DIR%\LzmaLib.inc
-echo LzmaCompress PROTO :PTR BYTE, :PTR DWORD, :PTR BYTE, :DWORD, :PTR BYTE, :PTR DWORD, :DWORD >> %OUTPUT_DIR%\LzmaLib.inc
-echo LzmaUncompress PROTO :PTR BYTE, :PTR DWORD, :PTR BYTE, :PTR DWORD, :PTR BYTE, :DWORD >> %OUTPUT_DIR%\LzmaLib.inc
+echo LzmaUncompress PROTO :PTR BYTE, :PTR DWORD, :PTR BYTE, :PTR DWORD >> %OUTPUT_DIR%\LzmaLib.inc
 
 :: 检查编译结果
 if exist %OUTPUT_DIR%\LzmaLib.lib (
