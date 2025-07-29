@@ -4,7 +4,7 @@
 #ifndef ZIP7_INC_LZMA_LIB_H
 #define ZIP7_INC_LZMA_LIB_H
 
-#include "7zTypes.h"
+#include "..\C\7zTypes.h"
 
 EXTERN_C_BEGIN
 
